@@ -1,0 +1,51 @@
+﻿@model lab5.Models.Medicine
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2>Добавить</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Add">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MedicineName" class="control-label"></label>
+                <input asp-for="MedicineName" class="form-control" />
+                <span asp-validation-for="MedicineName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicineIndications" class="control-label"></label>
+                <input asp-for="MedicineIndications" class="form-control" />
+                <span asp-validation-for="MedicineIndications" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicineContraindications" class="control-label"></label>
+                <input asp-for="MedicineContraindications" class="form-control" />
+                <span asp-validation-for="MedicineContraindications" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicineManufacturer" class="control-label"></label>
+                <input asp-for="MedicineManufacturer" class="form-control" />
+                <span asp-validation-for="MedicineManufacturer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicinePackaging" class="control-label"></label>
+                <input asp-for="MedicinePackaging" class="form-control" />
+                <span asp-validation-for="MedicinePackaging" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicineDosage" class="control-label"></label>
+                <input asp-for="MedicineDosage" class="form-control" />
+                <span asp-validation-for="MedicineDosage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Добавить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Вернуться</a>
+</div>

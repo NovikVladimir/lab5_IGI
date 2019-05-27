@@ -1,0 +1,49 @@
+﻿@using lab5.ViewModels
+@using lab5.Helpers
+@addTagHelper "*, lab5"
+@model DiseasesViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    @Html.CreateLinksToPages(Model.Pages)
+    <div class="data-search">
+        @using (Html.BeginForm("Index", "Disease", FormMethod.Post))
+        {
+            <fieldset>
+                Название болезни: @Html.TextBox("DiseaseName", Model.DiseaseViewModel.DiseaseName)
+                <input type="submit" value="Найти" />
+            </fieldset>
+        }
+        <a asp-action="Add" class="btn btn-default btn">
+            Добавить
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    </div>
+    <div>
+        Информация о болезнях
+        <table>
+            <tr>
+                <td><a asp-controller="Disease" asp-action="Index" asp-route-sortOrder="@ViewBag.NameSort">Название</a></td>
+                <td>Симптомы</td>
+                <td>Продолжительность</td>
+                <td>Последствия</td>
+            </tr>
+            @foreach (Disease i in Model.PageViewModel)
+            {
+            <tr>
+
+                <td>@i.DiseaseName</td>
+                <td>@i.DiseaseSymptoms</td>
+                <td>@i.DiseaseDuration</td>
+                <td>@i.DiseaseConsequences</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@i.DiseaseID">Изменить</a>
+                    <a asp-action="Details" asp-route-id="@i.DiseaseID">Подробно</a>
+                </td>
+            </tr>
+            }
+        </table>
+    </div>
+</div>

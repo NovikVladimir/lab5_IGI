@@ -1,0 +1,63 @@
+﻿@model lab5.ViewModels.HomeViewModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<div class="row">
+    <div>
+        <label>Болезни и симптомы</label>
+        <table>
+            @{
+                foreach (Disease i in Model.Diseases)
+                {
+                    <tr>
+                        <td>@i.DiseaseName</td>
+                        <td>@i.DiseaseSymptoms</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+    <div>
+        <label>Болезнь и лекарство</label>
+        <table>
+            @{
+                foreach (Treatment i in Model.Treatments)
+                {
+                    <tr>
+                        <td>@i.TreatmentDisease</td>
+                        <td>@i.TreatmentMedication</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+    <div>
+        <label>Лекарство и доза</label>
+        <table>
+            @{
+                foreach (Medicine i in Model.Medicines)
+                {
+                    <tr>
+                        <td>@i.MedicineName</td>
+                        <td>@i.MedicineDosage</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+    <div>
+        <label>Пациенты</label>
+        <table>
+            @{
+                foreach (Patient i in Model.Patients)
+                {
+                    <tr>
+                        <td>@i.PatientName</td>
+                        <td>@i.PatientDisease</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</div>

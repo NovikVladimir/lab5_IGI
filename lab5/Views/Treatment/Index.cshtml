@@ -1,0 +1,40 @@
+﻿@using lab5.ViewModels
+@model TreatmentsViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <div class="data-search">
+        @using (Html.BeginForm("Index", "Treatment", FormMethod.Post))
+        {
+            <fieldset>
+                Название болезни: @Html.TextBox("TreatmentDisease", Model.TreatmentViewModel.TreatmentDisease)
+                <input type="submit" value="Найти" />
+            </fieldset>
+        }
+    </div>
+    <div>
+        Лечения
+        <table>
+            <tr>
+                <td><a asp-controller="Treatment" asp-action="Index" asp-route-sortOrder="@ViewBag.NameSort">Название болезни</a></td>
+                <td>Название лекарства</td>
+                <td>Продолжительность лечения</td>
+                <td>Болезнь(через ключ)</td>
+                <td>Лекарство(через ключ)</td>
+            </tr>
+            @foreach (Treatment i in Model.PageViewModel)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => i.TreatmentDisease)</td>
+                    <td>@Html.DisplayFor(modelItem => i.TreatmentMedication)</td>
+                    <td>@Html.DisplayFor(modelItem => i.TreatmentDurationOfTreatment)</td>
+                    <td>@Html.DisplayFor(modelItem => i.Disease.DiseaseName)</td>
+                    <td>@Html.DisplayFor(modelItem => i.Medicine.MedicineName)</td>
+                </tr>
+            }
+        </table>
+        <page-link page-model="Model.Pages" page-action="Index"></page-link>
+    </div>
+</div>

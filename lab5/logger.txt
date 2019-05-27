@@ -1,0 +1,443 @@
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Error unprotecting the session cookie.
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7426ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 253.3106ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 310.6897ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 2617.3702ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/lib/bootstrap/dist/css/bootstrap.css  
+Request starting HTTP/2.0 GET https://localhost:44359/css/site.css  
+Request starting HTTP/2.0 GET https://localhost:44359/js/site.js?v=TGOH2ESgtBkJeU7NDUqxL2702-FA_nHuWCBAO7UUeLs  
+Request starting HTTP/2.0 GET https://localhost:44359/lib/bootstrap/dist/js/bootstrap.bundle.js  
+Request starting HTTP/2.0 GET https://localhost:44359/lib/jquery/dist/jquery.js  
+Sending file. Request path: '/css/site.css'. Physical path: 'z:\Универ\ИГИ\lab5\lab5\wwwroot\css\site.css'
+Sending file. Request path: '/js/site.js'. Physical path: 'z:\Универ\ИГИ\lab5\lab5\wwwroot\js\site.js'
+Request finished in 183.8528ms 200 text/css
+Request finished in 131.6426ms 200 application/javascript
+Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'z:\Универ\ИГИ\lab5\lab5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'z:\Универ\ИГИ\lab5\lab5\wwwroot\lib\jquery\dist\jquery.js'
+Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'z:\Универ\ИГИ\lab5\lab5\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Error unprotecting the session cookie.
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6666ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 283.7208ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 359.1977ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request starting HTTP/2.0 GET https://localhost:44359/lib/bootstrap/dist/css/bootstrap.css  
+Request starting HTTP/2.0 GET https://localhost:44359/lib/bootstrap/dist/js/bootstrap.bundle.js  
+Request starting HTTP/2.0 GET https://localhost:44359/lib/jquery/dist/jquery.js  
+Request finished in 2774.9564ms 200 text/html; charset=utf-8
+Request finished in 106.4115ms 206 application/javascript
+Request starting HTTP/2.0 GET https://localhost:44359/lib/jquery/dist/jquery.js  
+Request finished in 104.8137ms 206 application/javascript
+Request starting HTTP/2.0 GET https://localhost:44359/lib/bootstrap/dist/css/bootstrap.css  
+Request starting HTTP/2.0 GET https://localhost:44359/lib/bootstrap/dist/js/bootstrap.bundle.js  
+Request finished in 18.9733ms 206 application/javascript
+Request finished in 33.5933ms 206 text/css
+Request finished in 114.9ms 206 text/css
+Request finished in 37.3106ms 206 application/javascript
+Request starting HTTP/2.0 GET https://localhost:44359/favicon.ico  
+Sending file. Request path: '/favicon.ico'. Physical path: 'z:\Универ\ИГИ\lab5\lab5\wwwroot\favicon.ico'
+Request finished in 75.0044ms 200 image/x-icon
+Request starting HTTP/2.0 GET https://localhost:44359/Medicine  
+Error unprotecting the session cookie.
+Executing endpoint 'lab5.Controllers.MedicineController.Index (lab5)'
+Route matched with {action = "Index", controller = "Medicine"}. Executing action lab5.Controllers.MedicineController.Index (lab5)
+Executing action method lab5.Controllers.MedicineController.Index (lab5) with arguments (No, 0) - Validation state: Valid
+Executed action method lab5.Controllers.MedicineController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 198.4217ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 729.0795ms.
+Executed action lab5.Controllers.MedicineController.Index (lab5) in 1179.2573ms
+Executed endpoint 'lab5.Controllers.MedicineController.Index (lab5)'
+Session started; Key:d385292b-10a4-1aeb-8326-e6465d919e50, Id:1e9a73a8-5f4f-49cf-b46b-772445fec168
+Request finished in 1752.4142ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Disease  
+Executing endpoint 'lab5.Controllers.DiseaseController.Index (lab5)'
+Route matched with {action = "Index", controller = "Disease"}. Executing action lab5.Controllers.DiseaseController.Index (lab5)
+Executing action method lab5.Controllers.DiseaseController.Index (lab5) with arguments (No) - Validation state: Valid
+Executed action method lab5.Controllers.DiseaseController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.2395ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 36.6911ms.
+Executed action lab5.Controllers.DiseaseController.Index (lab5) in 78.9351ms
+Executed endpoint 'lab5.Controllers.DiseaseController.Index (lab5)'
+Request finished in 145.3004ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Treatment  
+Executing endpoint 'lab5.Controllers.TreatmentController.Index (lab5)'
+Route matched with {action = "Index", controller = "Treatment"}. Executing action lab5.Controllers.TreatmentController.Index (lab5)
+Executing action method lab5.Controllers.TreatmentController.Index (lab5) with arguments (No) - Validation state: Valid
+Executed action method lab5.Controllers.TreatmentController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1373ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 61.1986ms.
+Executed action lab5.Controllers.TreatmentController.Index (lab5) in 106.1013ms
+Executed endpoint 'lab5.Controllers.TreatmentController.Index (lab5)'
+Request finished in 179.9457ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Patient  
+Executing endpoint 'lab5.Controllers.PatientController.Index (lab5)'
+Route matched with {action = "Index", controller = "Patient"}. Executing action lab5.Controllers.PatientController.Index (lab5)
+Executing action method lab5.Controllers.PatientController.Index (lab5) with arguments (No) - Validation state: Valid
+Executed action method lab5.Controllers.PatientController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.7271ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 34.9057ms.
+Executed action lab5.Controllers.PatientController.Index (lab5) in 85.3293ms
+Executed endpoint 'lab5.Controllers.PatientController.Index (lab5)'
+Request finished in 184.7435ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0271ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 12.952ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 52.1577ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 120.8586ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Home/About  
+Executing endpoint 'lab5.Controllers.HomeController.About (lab5)'
+Route matched with {action = "About", controller = "Home"}. Executing action lab5.Controllers.HomeController.About (lab5)
+Executing action method lab5.Controllers.HomeController.About (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.About (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2006.1617ms.
+Executing ViewResult, running view About.
+Executed ViewResult - view About executed in 17.6795ms.
+Executed action lab5.Controllers.HomeController.About (lab5) in 2068.6568ms
+Executed endpoint 'lab5.Controllers.HomeController.About (lab5)'
+Request finished in 2141.1946ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Home/About2  
+Processing request /Home/About2
+Request finished in 31.3293ms 200 
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7604ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 193.9382ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 254.8973ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 2633.5626ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Medicine  
+Executing endpoint 'lab5.Controllers.MedicineController.Index (lab5)'
+Route matched with {action = "Index", controller = "Medicine"}. Executing action lab5.Controllers.MedicineController.Index (lab5)
+Executing action method lab5.Controllers.MedicineController.Index (lab5) with arguments (No, 0) - Validation state: Valid
+Accessing expired session, Key:d385292b-10a4-1aeb-8326-e6465d919e50
+Executed action method lab5.Controllers.MedicineController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.1684ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 701.9764ms.
+Executed action lab5.Controllers.MedicineController.Index (lab5) in 778.2831ms
+Executed endpoint 'lab5.Controllers.MedicineController.Index (lab5)'
+Session started; Key:d385292b-10a4-1aeb-8326-e6465d919e50, Id:89f670c8-4368-196d-6bdd-2cfd185765bd
+Request finished in 879.9715ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0284ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 18.4671ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 92.1355ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 159.4466ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Roles  
+Executing endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Route matched with {action = "Index", controller = "Roles"}. Executing action lab5.Controllers.RolesController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ChallengeResult with authentication schemes ().
+Executed action lab5.Controllers.RolesController.Index (lab5) in 129.1471ms
+Executed endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+An unhandled exception has occurred while executing the request.
+Request finished in 425.7808ms 500 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Roles  
+Executing endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Route matched with {action = "Index", controller = "Roles"}. Executing action lab5.Controllers.RolesController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ChallengeResult with authentication schemes ().
+Executed action lab5.Controllers.RolesController.Index (lab5) in 34.4351ms
+Executed endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+An unhandled exception has occurred while executing the request.
+Request finished in 112.8537ms 500 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7897ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 202.4066ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 260.6822ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 2728.7688ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Roles  
+Executing endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Route matched with {action = "Index", controller = "Roles"}. Executing action lab5.Controllers.RolesController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ChallengeResult with authentication schemes ().
+Executed action lab5.Controllers.RolesController.Index (lab5) in 67.3573ms
+Executed endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+An unhandled exception has occurred while executing the request.
+Request finished in 267.308ms 500 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0408ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 234.1506ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 307.3728ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 2775.1431ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Roles  
+Executing endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Route matched with {action = "Index", controller = "Roles"}. Executing action lab5.Controllers.RolesController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ChallengeResult with authentication schemes ().
+AuthenticationScheme: Identity.Application was challenged.
+Executed action lab5.Controllers.RolesController.Index (lab5) in 66.1075ms
+Executed endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Request finished in 146.9075ms 302 
+Request starting HTTP/2.0 GET https://localhost:44359/Account/Login?ReturnUrl=%2FRoles  
+Executing endpoint 'lab5.Controllers.AccountController.Login (lab5)'
+Route matched with {action = "Login", controller = "Account"}. Executing action lab5.Controllers.AccountController.Login (lab5)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (1,159ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Accounts];
+Executed DbCommand (282ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Accounts] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+Executed DbCommand (134ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+Executed DbCommand (90ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+Executing action method lab5.Controllers.AccountController.Login (lab5) with arguments (/Roles) - Validation state: Valid
+Executed action method lab5.Controllers.AccountController.Login (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9631ms.
+Executing ViewResult, running view Login.
+Executed ViewResult - view Login executed in 183.1817ms.
+Executed action lab5.Controllers.AccountController.Login (lab5) in 12466.2422ms
+Executed endpoint 'lab5.Controllers.AccountController.Login (lab5)'
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6991ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 196.8675ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 258.4044ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 2630.1875ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Roles  
+Executing endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Route matched with {action = "Index", controller = "Roles"}. Executing action lab5.Controllers.RolesController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ChallengeResult with authentication schemes ().
+AuthenticationScheme: Identity.Application was challenged.
+Executed action lab5.Controllers.RolesController.Index (lab5) in 80.9328ms
+Executed endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Request finished in 153.1924ms 302 
+Request starting HTTP/2.0 GET https://localhost:44359/Account/Login?ReturnUrl=%2FRoles  
+Executing endpoint 'lab5.Controllers.AccountController.Login (lab5)'
+Route matched with {action = "Login", controller = "Account"}. Executing action lab5.Controllers.AccountController.Login (lab5)
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing action method lab5.Controllers.AccountController.Login (lab5) with arguments (/Roles) - Validation state: Valid
+Executed action method lab5.Controllers.AccountController.Login (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5635ms.
+Executing ViewResult, running view Login.
+Executed ViewResult - view Login executed in 80.0528ms.
+Executed action lab5.Controllers.AccountController.Login (lab5) in 441.4235ms
+Executed endpoint 'lab5.Controllers.AccountController.Login (lab5)'
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8146ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 206.9542ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 263.6248ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 2734.7702ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/User  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.UserController.Index (lab5)'
+Route matched with {action = "Index", controller = "User"}. Executing action lab5.Controllers.UserController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ForbidResult with authentication schemes ().
+AuthenticationScheme: Identity.Application was forbidden.
+Executed action lab5.Controllers.UserController.Index (lab5) in 103.0266ms
+Executed endpoint 'lab5.Controllers.UserController.Index (lab5)'
+Request finished in 220.6417ms 302 
+Request starting HTTP/2.0 GET https://localhost:44359/Account/AccessDenied?ReturnUrl=%2FUser  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Request finished in 49.6488ms 200 
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4586ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 28.9626ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 144.5022ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 343.1435ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Roles  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Route matched with {action = "Index", controller = "Roles"}. Executing action lab5.Controllers.RolesController.Index (lab5)
+Authorization failed.
+Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+Executing ForbidResult with authentication schemes ().
+AuthenticationScheme: Identity.Application was forbidden.
+Executed action lab5.Controllers.RolesController.Index (lab5) in 73.9337ms
+Executed endpoint 'lab5.Controllers.RolesController.Index (lab5)'
+Request finished in 171.5395ms 302 
+Request starting HTTP/2.0 GET https://localhost:44359/Account/AccessDenied?ReturnUrl=%2FRoles  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Request finished in 50.2942ms 200 
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0155ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 14.7075ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 82.2431ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 172.4444ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/Patient  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.PatientController.Index (lab5)'
+Route matched with {action = "Index", controller = "Patient"}. Executing action lab5.Controllers.PatientController.Index (lab5)
+Executing action method lab5.Controllers.PatientController.Index (lab5) with arguments (No) - Validation state: Valid
+Accessing expired session, Key:d385292b-10a4-1aeb-8326-e6465d919e50
+Executed action method lab5.Controllers.PatientController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 45.1177ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 144.1177ms.
+Executed action lab5.Controllers.PatientController.Index (lab5) in 249.0146ms
+Executed endpoint 'lab5.Controllers.PatientController.Index (lab5)'
+Session started; Key:d385292b-10a4-1aeb-8326-e6465d919e50, Id:83ab7bca-ef5b-91db-5728-58d4e476d3c5
+Request finished in 410.0448ms 200 text/html; charset=utf-8
+Request starting HTTP/2.0 GET https://localhost:44359/  
+Entity Framework Core 2.2.4-servicing-10062 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+Executing endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Route matched with {action = "Index", controller = "Home"}. Executing action lab5.Controllers.HomeController.Index (lab5)
+Executing action method lab5.Controllers.HomeController.Index (lab5) - Validation state: Valid
+Executed action method lab5.Controllers.HomeController.Index (lab5), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0182ms.
+Executing ViewResult, running view Index.
+Executed ViewResult - view Index executed in 11.5164ms.
+Executed action lab5.Controllers.HomeController.Index (lab5) in 60.7431ms
+Executed endpoint 'lab5.Controllers.HomeController.Index (lab5)'
+Request finished in 150.3386ms 200 text/html; charset=utf-8

@@ -1,0 +1,22 @@
+﻿@model lab5.Models.Disease
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>Подробности</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.DiseaseName)</dt>
+        <dd>@Html.DisplayFor(model => model.DiseaseName)</dd>
+        <dt>@Html.DisplayNameFor(model => model.DiseaseSymptoms)</dt>
+        <dd>@Html.DisplayFor(model => model.DiseaseSymptoms)</dd>
+        <dt>@Html.DisplayNameFor(model => model.DiseaseDuration)</dt>
+        <dd>@Html.DisplayFor(model => model.DiseaseDuration)</dd>
+        <dt>@Html.DisplayNameFor(model => model.DiseaseConsequences)</dt>
+        <dd>@Html.DisplayFor(model => model.DiseaseConsequences)</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-sm btn-primary" asp-route-id="@Model.DiseaseID">Изменить</a>
+    <a asp-action="Delete" class="btn btn-sm btn-primary" asp-route-id="@Model.DiseaseID">Удалить</a>
+    <a asp-action="Index" class="btn btn-sm btn-primary">Вернуться</a>
+</div>

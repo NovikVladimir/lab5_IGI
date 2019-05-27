@@ -1,0 +1,52 @@
+﻿@using lab5.ViewModels
+@using lab5.Helpers
+@addTagHelper "*, lab5"
+@model MedicinesViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <div class="data-search">
+        @using (Html.BeginForm("Index", "Medicine", FormMethod.Post))
+        {
+            <fieldset>
+                Название: @Html.TextBox("MedicineName", Model.MedicineViewModel.MedicineName)
+                <input type="submit" value="Найти" />
+            </fieldset>
+        }
+        <a asp-action="Add" class="btn btn-default btn">
+            Добавить
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    </div>
+    <div>
+        Лекарства
+        <table>
+            <tr>
+                <th><a asp-controller="Medicine" asp-action="Index" asp-route-sortOrder="@ViewBag.NameSort">Название</a></th>
+                <th>Доза</th>
+                <th>Производитель</th>
+                <th>Упаковка</th>
+                <th>Показания</th>
+                <th>Противопоказания</th>
+            </tr>
+            @foreach (Medicine i in Model.PageViewModel)
+            {
+            <tr>
+                <td>@i.MedicineName</td>
+                <td>@i.MedicineDosage</td>
+                <td>@i.MedicineManufacturer</td>
+                <td>@i.MedicinePackaging</td>
+                <td>@i.MedicineIndications</td>
+                <td>@i.MedicineContraindications</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@i.MedicineID">Изменить</a>
+                    <a asp-action="Details" asp-route-id="@i.MedicineID">Подробно</a>
+                </td>
+            </tr>
+            }
+        </table>
+        <page-link page-model="Model.Pages" page-action="Index"></page-link>
+    </div>
+</div>

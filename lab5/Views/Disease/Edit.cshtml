@@ -1,0 +1,43 @@
+﻿@model lab5.Models.Disease
+
+<h2>Редактирование</h2>
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="DiseaseID" />
+        <div class="form-group">
+            <label asp-for="DiseaseName" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <input asp-for="DiseaseName" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="DiseaseSymptoms" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <input asp-for="DiseaseSymptoms" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="DiseaseDuration" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <input asp-for="DiseaseDuration" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="DiseaseConsequences" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <input asp-for="DiseaseConsequences" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Сохранить" class="btn btn-warning" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index" class="btn btn-sm btn-primary">Вернуться</a>
+</div>
